@@ -1,4 +1,16 @@
 aid: monax-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monax-labs.png
 name: Monax Labs
 description: 'Monax Labs is a company surfaced as a portfolio company of partech and added to the API
   Evangelist network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Applicative Saas
@@ -25,3 +37,9 @@ maintainers:
 common:
 - type: Website
   url: http://www.monaxlabs.io/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Probed 2026-07-20: monaxlabs.io and monax.io have no DNS A/AAAA/MX/TXT records (Cloudflare NS, zero records) and do not resolve; docs/api/app subdomains do not resolve; github.com/monax is an unrelated 0-repo user created 2025-12-05. No live web, API, docs, SDK, or GitHub surface exists to enrich.'
